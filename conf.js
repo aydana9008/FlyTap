@@ -5,7 +5,7 @@ exports.config = {
     directConnect: true,
     multiCapabilities: [
      { "browserName": "chrome"},       
-     {"browserName": "firefox"}
+    // {"browserName": "firefox"}
     ],
     specs: ['../Tests/CorporateFlyTap.spec.js'],
 
