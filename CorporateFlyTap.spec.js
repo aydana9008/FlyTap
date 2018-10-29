@@ -4,8 +4,6 @@ var AppData = require('../TestData/AppData.json');
 var CorporateFlyTapPage = require('../Pages/CorporateFlyTap.page.js');
 
 
-
-
 describe('Verify the Corporate page on the FlyTap application', () => {
     var EC = protractor.ExpectedConditions;
     var browserHandles = [];
