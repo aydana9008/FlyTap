@@ -1,3 +1,4 @@
+
 var customLocators = function(){
     by.addLocator('ngClick', function(toState, parentelement){
         var using = parentelement || document ;
