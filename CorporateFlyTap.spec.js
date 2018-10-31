@@ -12,7 +12,7 @@ describe('Verify the Corporate page on the FlyTap application', () => {
         Base.navigateTo(Base.homeCorporateUrl);
       CorporateFlyTapPage.CorporateLink.click();
       browser.getAllWindowHandles().then(handles=>{
-          browserHandles=handles;
+      browserHandles=handles;
           browser.switchTo().window(browserHandles[0]);
           });
           browser.close().then(()=>{
